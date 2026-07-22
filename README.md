@@ -1,16 +1,44 @@
-# React + Vite
+<p align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+<img src="docs/images/banner.png" width="100%">
 
-Currently, two official plugins are available:
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# Zetta Locações & Empreendimentos
 
-## React Compiler
+### Site Institucional Oficial
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## Expanding the Oxlint configuration
+<p align="center">
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+<img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=white">
+
+<img src="https://img.shields.io/badge/Vite-8-646CFF?style=for-the-badge&logo=vite&logoColor=white">
+
+<img src="https://img.shields.io/badge/JavaScript-ES6-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+
+<img src="https://img.shields.io/badge/EmailJS-Integrated-0A66C2?style=for-the-badge">
+
+<img src="https://img.shields.io/badge/Responsive-Mobile%20First-success?style=for-the-badge">
+
+<img src="https://img.shields.io/badge/Status-Online-brightgreen?style=for-the-badge">
+
+</p>
+
+---
+
+## 🚀 Sobre o projeto
+
+O **Zetta Locações & Empreendimentos** é um site institucional desenvolvido em React + Vite para apresentar os serviços da empresa com uma interface moderna, responsiva e otimizada para desempenho.
+
+### Principais recursos
+
+- Interface moderna
+- Layout responsivo
+- Efeito Glassmorphism
+- Animações com Framer Motion
+- Integração com EmailJS
+- Google Maps
+- Botão para WhatsApp
+- Link para Instagram
+- Estrutura preparada para SEO
