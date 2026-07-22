@@ -42,3 +42,51 @@ O **Zetta Locações & Empreendimentos** é um site institucional desenvolvido e
 - Botão para WhatsApp
 - Link para Instagram
 - Estrutura preparada para SEO
+
+---
+
+# 📸 Screenshots
+
+## 🖥️ Versão Desktop
+
+### Página Inicial
+
+<p align="center">
+    <img src="docs/images/screenshots/home-desktop.png" width="100%">
+</p>
+
+### Empresa
+
+<p align="center">
+    <img src="docs/images/screenshots/empresa-desktop.png" width="100%">
+</p>
+
+### Serviços
+
+<p align="center">
+    <img src="docs/images/screenshots/servicos-desktop.png" width="100%">
+</p>
+
+### Galeria
+
+<p align="center">
+    <img src="docs/images/screenshots/galeria-desktop.png" width="100%">
+</p>
+
+### Contato
+
+<p align="center">
+    <img src="docs/images/screenshots/contato-desktop.png" width="100%">
+</p>
+
+---
+
+## 📱 Versão Mobile
+
+<p align="center">
+
+<img src="docs/images/screenshots/home-mobile.png" width="300">
+
+<img src="docs/images/screenshots/contato-mobile.png" width="300">
+
+</p>
