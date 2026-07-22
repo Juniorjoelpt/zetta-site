@@ -1,0 +1,69 @@
+.sobre{
+
+    padding:120px 0;
+
+    background:#fff;
+
+}
+
+.sobre .container{
+
+    max-width:1300px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:70px;
+
+    align-items:center;
+
+    padding:0 30px;
+
+}
+
+.sobre-imagem img{
+
+    width:100%;
+
+    border-radius:18px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.15);
+
+}
+
+.sobre-texto span{
+
+    color:#D39A32;
+
+    font-weight:bold;
+
+    text-transform:uppercase;
+
+    letter-spacing:2px;
+
+}
+
+.sobre-texto h2{
+
+    font-size:42px;
+
+    margin:20px 0;
+
+    color:#07123D;
+
+}
+
+.sobre-texto p{
+
+    font-size:18px;
+
+    line-height:1.8;
+
+    margin-bottom:20px;
+
+    color:#555;
+
+}

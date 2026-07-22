@@ -1,0 +1,77 @@
+.back-top{
+
+    position:fixed;
+
+    right:30px;
+
+    bottom:110px;
+
+    width:55px;
+
+    height:55px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:#07123D;
+
+    color:white;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    font-size:20px;
+
+    cursor:pointer;
+
+    box-shadow:0 10px 25px rgba(0,0,0,.2);
+
+    opacity:0;
+
+    visibility:hidden;
+
+    transform:translateY(20px);
+
+    transition:.35s;
+
+    z-index:9998;
+
+}
+
+.back-top.show{
+
+    opacity:1;
+
+    visibility:visible;
+
+    transform:translateY(0);
+
+}
+
+.back-top:hover{
+
+    background:#D39A32;
+
+    transform:translateY(-5px);
+
+}
+
+@media(max-width:768px){
+
+    .back-top{
+
+        right:20px;
+
+        bottom:90px;
+
+        width:50px;
+
+        height:50px;
+
+    }
+
+}

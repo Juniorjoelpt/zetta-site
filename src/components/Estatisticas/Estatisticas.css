@@ -1,0 +1,149 @@
+.estatisticas{
+
+background:#07123D;
+
+padding:90px 30px;
+
+}
+
+.estatisticas .container{
+
+max-width:1300px;
+
+margin:auto;
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+gap:30px;
+
+}
+
+.numero-card{
+
+background:rgba(255,255,255,.08);
+
+border:1px solid rgba(255,255,255,.15);
+
+padding:40px;
+
+text-align:center;
+
+border-radius:20px;
+
+transition:.4s;
+
+backdrop-filter:blur(10px);
+
+}
+
+.numero-card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.numero-card .icone{
+
+font-size:45px;
+
+color:#D39A32;
+
+margin-bottom:20px;
+
+}
+
+.numero-card h2{
+
+font-size:52px;
+
+color:white;
+
+margin-bottom:15px;
+
+}
+
+.numero-card p{
+
+color:#ddd;
+
+font-size:18px;
+
+}
+.card-premium{
+
+    position:relative;
+    overflow:hidden;
+
+    transition:
+        transform .45s ease,
+        box-shadow .45s ease,
+        border-color .45s ease;
+
+}
+.card-premium::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:-120%;
+
+    left:-120%;
+
+    width:220%;
+
+    height:220%;
+
+    background:
+        linear-gradient(
+            45deg,
+            transparent,
+            rgba(255,255,255,.12),
+            transparent
+        );
+
+    transform:rotate(25deg);
+
+    transition:.8s;
+
+}
+.card-premium:hover{
+
+    transform:
+        perspective(900px)
+        rotateX(5deg)
+        rotateY(-5deg)
+        translateY(-10px);
+
+    border-color:#D39A32;
+
+    box-shadow:
+
+        0 30px 60px rgba(0,0,0,.20),
+
+        0 0 30px rgba(211,154,50,.20);
+
+}
+.card-premium:hover::before{
+
+    top:120%;
+    left:120%;
+
+}
+@media(max-width:768px){
+
+.estatisticas .container{
+
+grid-template-columns:1fr;
+
+}
+
+.numero-card{
+
+margin-bottom:20px;
+
+}
+
+}
